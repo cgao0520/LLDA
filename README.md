@@ -8,12 +8,14 @@ The code is written in Python, and the MNIST dataset (in original data format) i
 Usage: python SLLDA.py <0-9> <0-9> <m> <n>
 
 Where 
-        <0-9> indicates digit number between 0 and 9 for a class
-        m in <m> indicates instances for each training calss
-        n in <n> indicates instances for each testing class
+ - <0-9> indicates digit number between 0 and 9 for a class
+ - m in <m> indicates instances for each training calss
+ - n in <n> indicates instances for each testing class
 
 For instance, to do a quick experiment on classification between 1 and 0, run:
 ```bash
 cd code
 python3 SLLDA.py 1 0 200 1000
 ```
+The result will be output in both terminal and misclassified images will be shown in a pop-up figure like below.
+![Missclassification before 1 and 0](./figs/result_fig_0_1.png)
